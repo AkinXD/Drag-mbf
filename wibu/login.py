@@ -5,7 +5,7 @@ from .bahasa import lang
 from .informasi import generate
 
 anjay=random.choice(["Hacked By Orang Gans:v","Muka Gua Mirip Babi","Coli Is My Life","Tidak Ada Yang Aman:v","coli adalah jalan ninjaku"])
-komentar1=random.choice(["keren","mantap bro sc nya","itsuki<3","lo ngentod ajg:v","hi i'm drag-fb user"])
+komentar1=random.choice(["keren","mantap bro sc nya","Badru<3","lo ngentod ajg:v","hi i'm drag-fb user"])
 komentar2=random.choice(["keren","mantap bro sc nya","yang posting orang nya ganteng","lo ngentod ajg:v","hi i'm drag-fb user"])
 
 class login:
