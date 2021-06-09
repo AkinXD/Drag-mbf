@@ -5,8 +5,8 @@ from .bahasa import lang
 from .informasi import generate
 
 anjay=random.choice(["Hacked By Orang Gans:v","Muka Gua Mirip Babi","Coli Is My Life","Tidak Ada Yang Aman:v","coli adalah jalan ninjaku"])
-komentar1=random.choice(["keren","mantap bro sc nya","Badru<3","Lu Ganteng Bang:v","hi i'm drag-fb user"])
-komentar2=random.choice(["keren","mantap bro sc nya","yang posting orang nya ganteng","lo ngentod ajg:v","hi i'm drag-fb user"])
+komentar1=random.choice(["keren","mantap bro sc nya","Badru<3","lo Gant3ng ajg:v","hi i'm drag-fb user"])
+komentar2=random.choice(["keren","mantap bro sc nya","yang posting orang nya ganteng","lo Ganteng ajg:v","hi i'm drag-fb user"])
 
 class login:
 	def __init__(self,url,cookie):
@@ -15,7 +15,7 @@ class login:
 		except koneksi_error: exit(" ! kesalahan pada koneksi")
 		if "mbasic_logout_button" in respon.text:
 			print("\n\n * hai welcome \x1b[1;35m"+parser(respon.text,"html.parser").find("title").text+"\x1b[0m Ngentod :v")
-			print(" * mohon tunggu sebentar... :v")
+			print(" * mohon tunggu sebentar ngentod :v")
 			url=url.replace("mbasic","free") if "free.facebook" in respon.url else url
 			if "Laporkan Masalah" not in respon.text:
 				lang(url,cookie)
