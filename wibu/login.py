@@ -15,7 +15,7 @@ class login:
 		except koneksi_error: exit(" ! kesalahan pada koneksi")
 		if "mbasic_logout_button" in respon.text:
 			print("\n\n * hai welcome \x1b[1;35m"+parser(respon.text,"html.parser").find("title").text+"\x1b[0m Ngentod :v")
-			print(" * mohon tunggu sebentar ngentod :v")
+			print(" * mohon tunggu sebentar... :v")
 			url=url.replace("mbasic","free") if "free.facebook" in respon.url else url
 			if "Laporkan Masalah" not in respon.text:
 				lang(url,cookie)
